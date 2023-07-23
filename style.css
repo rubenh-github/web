@@ -1,0 +1,108 @@
+/* Imported Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+/*  // HTML STYLES // */
+body {
+    margin: 0;
+    background-color: #f3f9ff;
+    font-size: 1rem;
+    font-family: Roboto;
+}
+
+p {
+    margin: 0;
+}
+
+input {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 1rem;
+box-sizing: border-box;
+resize: vertical;
+background-color: transparent;
+}
+
+/* /// CUSTOM STYLES /// */
+/* Background Colors */
+
+.bg-color {
+    border: 1px solid rgb(204, 217, 219);
+    background-color: white;
+}
+
+/* // Titles //*/
+
+.title1 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.title2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.title3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.main-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Button Properties */
+
+.btn-submit {
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2rem;
+    color: whitesmoke;
+    background-image: linear-gradient(rgb(255, 119, 0), rgb(201, 105, 27));
+}
+
+.blue {
+    color: #4285F4;
+}
+
+
+.item {
+    font-size: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(56, 58, 63);
+}
+
+.item:hover {
+    color: rgb(56, 58, 63);
+}
+
+
+.small-text {
+    margin: none;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(56, 58, 63);
+}
+
+.small-text:hover {
+    color: rgb(56, 58, 63);
+}
+
+.block-item {
+    text-decoration: none;
+}
+
+.block-item .active {
+    color: rgb(255, 119, 0);
+}
+
+.block-item .in-active {
+    color: black;
+}
